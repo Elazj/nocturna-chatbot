@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Chat{% endblock %}
+{% block head %}<meta name="csrf-token" content="{{ csrf_token() }}">{% endblock %}
+{% block body_class %}chat-page{% endblock %}
+{% block body %}
+<div class="chat-shell">
+  <header class="chat-header">
+    <div class="brand">
+      <span class="wordmark">Nocturna</span>
+      <span class="tagline">University of The Gambia — Student Assistant</span>
+    </div>
+    <div class="account">
+      <span class="account-name" title="{{ user.email }}">{{ user.full_name }}</span>
+      <button type="button" id="clear-chat" class="ghost">Clear chat</button>
+      <form method="post" action="{{ url_for('auth.logout') }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <button type="submit" class="ghost">Log out</button>
+      </form>
+    </div>
+  </header>
+
+  <main id="messages" class="messages" aria-live="polite" aria-label="Conversation"></main>
+
+  <div id="suggestions" class="suggestions" hidden>
+    <button type="button" class="chip">What schools does UTG have?</button>
+    <button type="button" class="chip">What is the prerequisite for CPS 402?</button>
+    <button type="button" class="chip">Computer Science year 1 semester 1</button>
+    <button type="button" class="chip">Remind me to pay fees in 3 days</button>
+    <button type="button" class="chip">Help</button>
+  </div>
+
+  <form id="chat-form" class="composer" autocomplete="off">
+    <label for="chat-input" class="sr-only">Type your message</label>
+    <input id="chat-input" type="text" placeholder="Ask about admissions, courses, fees…" maxlength="500" required>
+    <button type="submit" class="primary" id="send-btn">Send</button>
+  </form>
+</div>
+<script src="{{ url_for('static', filename='chat.js') }}"></script>
+{% endblock %}
