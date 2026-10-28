@@ -1,11 +1,11 @@
 [
   {
-    "question": "what is the university of the gambia",
+    "question": "what is the university of the gambia or tell me about utg",
     "answer": "The University of The Gambia is the country's main public university. It was established in 1999, is based on MDI Road in Kanifing, and its motto is Knowledge, Truth, and Development.",
     "source": "utg.edu.gm - Home / About UTG"
   },
   {
-    "question": "what schools and faculties does utg have",
+    "question": "what schools and faculties does utg have or how many schools and faculties does utg have?",
     "answer": "UTG has nine schools and faculties: Agriculture and Environment Sciences, Arts and Sciences, Business and Public Administration, Education, Engineering and Architecture, Information Technology and Communications, Journalism and Digital Media, Law, and Medicine and Allied Health Sciences.",
     "source": "utg.edu.gm - Schools & Faculties"
   },
@@ -20,8 +20,8 @@
     "source": "utg.edu.gm - School of ICT, Admission Requirements"
   },
   {
-    "question": "how much is tuition at utg",
-    "answer": "The standard annual tuition fee is 38,000 dalasis for Gambian students and 4,950 US dollars for international students, payable in full or as two installments per semester. Students must have paid at least 40 percent of fees due to be allowed to sit examinations.",
+    "question": "how much is tuition at utg, and how do i pay",
+    "answer": "  Annual tuition fees at UTG range from GMD 31,800 to GMD 40,000 for Gambian students (GMD 70,000 for mature law students) and $3,750 to $4,950 for international students, depending on the faculty. An additional GMD 1,200 annual fee is charged for library, IT, union, and development services. To register for classes and sit for examinations, students must pay a minimum installment of 40% of their semester fees, which can be processed through Trust Bank, GTBank, or EcoBank. These payments must be made to be allowed to sit examinations.",
     "source": "utg.edu.gm - School of ICT, Tuition Fee"
   },
   {
@@ -76,12 +76,12 @@
   },
   {
     "question": "where is utg located",
-    "answer": "UTG's main administration is on MDI Road in Kanifing, with the postal address P O Box 3530, Serrekunda, The Gambia. UTG also has a presence at it's faraba banta campus where students currently go for lectures.",
+    "answer": "UTG's main administration is on MDI Road in Kanifing, with the postal address P O Box 3530, Serrekunda, The Gambia. UTG also has a presence at it's faraba banta campus where students currently go for lectures and other university activities.",
     "source": "utg.edu.gm - Get In Touch"
   },
   {
     "question": "how do i apply to utg",
-    "answer": "You can start an application through the Admissions section of the UTG website at utg.edu.gm, which has separate categories for undergraduate, graduate, and continuing education applicants.",
+    "answer": "To apply for the University of The Gambia (UTG), you must first pay the application fee at any Trust Bank, GTBank, or Ecobank branch—amounting to GMD 1,100 for undergraduate tracks (which includes one WASSCE result verification sheet), GMD 750 for master's programs, or GMD 1,000 for PhD tracks—while providing your mobile number to the teller. Within 48 hours, a unique 14-digit application PIN will be texted to your phone, which you can alternatively collect at the Kanifing Campus accounts office if the SMS fails to arrive. Next, visit the official UTG application portal (utg.gm) to create an account, log in, and enter your PIN to unlock the form. Finally, complete the online application by filling out stages 1 through 9, upload your required documents (including WASSCE results, ID, passport photo, and bank receipts), and await your official admission status notification via SMS and email.",
     "source": "utg.edu.gm - Admissions"
   },
   {
